@@ -1,0 +1,48 @@
+/*
+section accentrata
+*/
+body {
+  font-family: "Merriweather", serif;
+}
+
+header {
+  font-weight: bolder;
+  font-size: 3em;
+  text-align: center;
+}
+
+main {
+  height: 100vh;
+  background-image: url("/assets/image/—Pngtree—spiral\ notepad\ or\ notebook\ with_6559811.png");
+  background-size: 500px;
+  text-align: center;
+}
+
+main > div {
+  height: 5%;
+}
+
+#text_input {
+  height: 35px;
+  width: 50%;
+  border-radius: 20px;
+}
+
+section {
+  width: 60%;
+  height: 90%;
+  text-align: center;
+  margin: auto;
+  background-color: #e5e6ed;
+  border: dashed;
+}
+
+section h2 {
+  font-weight: bolder;
+  font-size: 2em;
+  border-bottom: dashed 2px black;
+}
+
+/* #lista {
+  text-align: center;
+} */

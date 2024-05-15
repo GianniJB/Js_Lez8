@@ -4,20 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task List</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/task_list.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/task_list.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header><h1>MyTaskList</h1></header>
     <main>
-      <div id="insertDiv">
-        <input type="text" placeholder="Cosa devi fare?" required />
+      <div id="insert_div">
+        <input
+          id="text_input"
+          type="text"
+          placeholder="Cosa devi fare?"
+          required
+        />
         <button>ADD</button>
       </div>
       <section id="lista">
+        <h2>Your Task List</h2>
         <ul></ul>
       </section>
     </main>
-    <script src="assets/task_list.js"></script>
+    <script src="assets/js/task_list.js"></script>
   </body>
 </html>
